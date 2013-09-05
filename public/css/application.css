@@ -11,3 +11,17 @@ th {
 p.inline {
   display: inline;
 }
+
+.new_post {
+
+display: inline-block;
+
+}
+
+
+#navlist li {
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+
+}

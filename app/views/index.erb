@@ -1,10 +1,17 @@
-<div class="container">
+
+
+
+
+
+
 
 
 <% @last_twenty.each do |post| %>
+<div class="post_card">
 <p> <%= post.title %> </p>
  <p><%= post.content %> </p>
 <p> <a href="<%= post.link %>">  <%= post.title %> </a></p>
+</div>
 
 
 <%end%>
@@ -12,6 +19,5 @@
 
 
 
-</div>
 
 

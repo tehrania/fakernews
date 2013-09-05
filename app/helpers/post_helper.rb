@@ -6,4 +6,9 @@ def last_twenty
 
 end
 
+
+def create_post
+  p params 
+end
+
 end

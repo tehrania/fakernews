@@ -16,6 +16,9 @@ post '/login' do
   redirect_to '/'
 end
 
+
+
+
 get '/logout' do
 session[:user_id] = nil
   redirect_to '/'
