@@ -1,0 +1,17 @@
+<div class="container">
+
+
+<% @last_twenty.each do |post| %>
+<p> <%= post.title %> </p>
+ <p><%= post.content %> </p>
+<p> <a href="<%= post.link %>">  <%= post.title %> </a></p>
+
+
+<%end%>
+
+
+
+
+</div>
+
+
